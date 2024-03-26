@@ -1,0 +1,24 @@
+﻿@page "/answerer"
+@rendermode InteractiveServer
+
+<PageTitle>Answerer</PageTitle>
+
+<h1>Answerer</h1>
+
+<p role="status">What's the meaning of Life, the Universe and Everything?</p>
+<p role="status">@answer</p>
+
+<button class="btn btn-primary" @onclick="answerQuestion">Click me</button>
+
+@code {
+
+
+  string answer;
+
+
+  void answerQuestion()
+  {
+    answer = ClassLibrary.DeepThinker.TheAnswer + "!";
+  }
+
+}
