@@ -1,0 +1,3 @@
+[submodule "GitSubmodules.Library"]
+	path = GitSubmodules.Library
+	url = https://github.com/TheAutomaTom/GitSubmodules.Library
