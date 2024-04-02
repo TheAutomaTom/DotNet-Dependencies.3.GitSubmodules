@@ -12,6 +12,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAspireApp.Web", "MyAspire
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary", "DotNet-Dependencies.0.ExampleClassLibrary\ClassLibrary\ClassLibrary.csproj", "{EADDED17-6579-4263-B3B6-CE7BB8A90DC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryTest", "TestProject1\ClassLibraryTest.csproj", "{926C2B0A-C562-489C-B3B8-7F5EA7144B21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{EADDED17-6579-4263-B3B6-CE7BB8A90DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EADDED17-6579-4263-B3B6-CE7BB8A90DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EADDED17-6579-4263-B3B6-CE7BB8A90DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{926C2B0A-C562-489C-B3B8-7F5EA7144B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{926C2B0A-C562-489C-B3B8-7F5EA7144B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{926C2B0A-C562-489C-B3B8-7F5EA7144B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{926C2B0A-C562-489C-B3B8-7F5EA7144B21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

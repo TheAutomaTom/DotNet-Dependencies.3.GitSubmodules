@@ -18,7 +18,10 @@
 
 
   void revealTruth() {
-    theAnswer = QuestionResolver.Answer.ToString() + "!";
+
+    int a = QuestionResolver.Answer;
+
+    theAnswer = $"{a}!";
   }
 
 }
