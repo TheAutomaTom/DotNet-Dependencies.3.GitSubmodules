@@ -1,4 +1,5 @@
 ﻿@page "/answerer"
+@using ClassLibrary
 @rendermode InteractiveServer
 
 <PageTitle>Answerer</PageTitle>
@@ -6,19 +7,18 @@
 <h1>Answerer</h1>
 
 <p role="status">What's the meaning of Life, the Universe and Everything?</p>
-<p role="status">@answer</p>
+<p role="status">@theAnswer</p>
 
-<button class="btn btn-primary" @onclick="answerQuestion">Click me</button>
+<button class="btn btn-primary" @onclick="revealTruth">Click me</button>
 
 @code {
 
 
-  string answer;
+  string theAnswer;
 
 
-  void answerQuestion()
-  {
-    answer = ClassLibrary.DeepThinker.TheAnswer + "!";
+  void revealTruth() {
+    theAnswer = QuestionResolver.Answer.ToString() + "!";
   }
 
 }
