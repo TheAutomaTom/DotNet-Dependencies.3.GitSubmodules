@@ -8,7 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GitSubmodules.Library\ClassLibrary\ClassLibrary.csproj" />
     <ProjectReference Include="..\MyAspireApp.ServiceDefaults\MyAspireApp.ServiceDefaults.csproj" />
   </ItemGroup>
 

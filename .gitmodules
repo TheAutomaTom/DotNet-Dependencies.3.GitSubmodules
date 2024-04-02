@@ -1,3 +1,3 @@
-[submodule "GitSubmodules.Library"]
-	path = GitSubmodules.Library
-	url = https://github.com/TheAutomaTom/GitSubmodules.Library
+[submodule "DotNet-Dependencies.0.ExampleClassLibrary"]
+	path = DotNet-Dependencies.0.ExampleClassLibrary
+	url = https://github.com/TheAutomaTom/DotNet-Dependencies.0.ExampleClassLibrary
