@@ -1,9 +1,9 @@
-namespace TestProject1
+namespace ClassLibraryTest
 {
   public class ClassLibraryTests
   {
     [Fact]
-    public void Submodule_Rocks()
+    public void Do_Submodules_Rock()
     {
       var a = ClassLibrary.QuestionResolver.Answer;
 
